@@ -1,3 +1,4 @@
+'use strict';
 var Name = prompt("Please Enter your Name: ");
 var gender = prompt("Please Enter your Gender either male or female ");
 var confirming = confirm("Would You Like to Skip Welcoming");
