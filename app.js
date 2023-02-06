@@ -1,4 +1,5 @@
 'use strict';
+/*
 var Name = prompt("Please Enter your Name: ");
 var gender = prompt("Please Enter your Gender either male or female ");
 var confirming = confirm("Would You Like to Skip Welcoming");
@@ -23,5 +24,7 @@ var age = prompt("Please Enter your Age");
 if (age <=0)
 {
     alert ("You entered age is less than or equal to zero!!")
-}
+}*/
+console.log("hi");
+
 
