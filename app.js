@@ -25,6 +25,7 @@ if (age <=0)
 {
     alert ("You entered age is less than or equal to zero!!")
 }*/
+var array=[];
 var result;
 var string1=" DO you think TODO  is a good website?";
 var string2="Do you have previous knowldge about us?";
@@ -32,42 +33,22 @@ var string3="would you like to join US ";
 function fun(str)
 {
 var feedback = prompt(str);
-// switch(feedback){
-//     case "Yes" :
-//         console.log(feedback)
-//         break;
-//         case "No":
-//          console.log(feedback)
-//         break;
-//        default:
-// console.log("invalid")
-// break;
-// }
 if (feedback =="Yes" ||feedback =="No"){
 result =feedback;
 }
 else{
 result = "invalid";
 }
-console.log(result)
-let arr =[result]
-console.log(arr)
-return result;
 
-// let arr=[result];
+array.push(result);
 }
 
 fun (string1)
 fun (string2)
 fun (string3)
-// console.log("hi");
-// let text = "";
-// let i = 0;
-// do {
-//   text += result + " "; //text = text + i + " ";
-//   i++;
-// }
-// while (i < 3);
-// console.log(tresult);
-
+//console.log(array)
+for(let i=0;i<array.length;i++)
+{
+    console.log(array[i]);
+}
 
